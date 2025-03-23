@@ -50,7 +50,7 @@ try:
             for i, (movie_title, movie_poster) in enumerate(recommendations):
                 with cols[i]:
                     st.text(movie_title)
-                    st.image(movie_poster, use_container_width=True) # Corrected line here!
+                    st.image(movie_poster, use_container_width=True) 
         else:
             st.write("No recommendations found.")
 
